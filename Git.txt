@@ -1,0 +1,44 @@
+git config --global user.name "Guilherme"
+git config --global user.email guirossik10@gmail.com
+git config --global --edit
+
+git init
+git clone
+
+git add
+git restore
+
+git diff
+git diff --staged
+
+git commit -m "add new title"
+
+gitk - visualizador de eventos
+
+
+git fecth 
+
+git branch testing || git checkout -b testing
+
+git log --oneline --decorate
+
+git checkout testing
+
+git branch
+
+
+git checkout master 
+git merge testing
+
+
+git fetch
+
+
+//na branch que deseja
+git rebase main
+
+git stash 
+git stash apply
+
+git cherry-pick <hash>
+

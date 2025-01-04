@@ -1,0 +1,352 @@
+https://docs.oracle.com/pt-br/learn/nmcli_ip_linux8/index.html#run-nmcli-connection-object-commands
+https://www.linuxuprising.com/2020/09/how-to-enable-echo-noise-cancellation.html
+
+instalar interface 
+
+yum update
+yum groupinstall "server with GUI"
+Enable GUI in system startup
+ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+or
+systemctl set-defaultl graphical.target
+reboot 
+
+$ sudo pacman -S --needed git base-devel
+$ git clone https://aur.archlinux.org/yay.git
+$ cd yay
+$ makepkg -si
+
+###wsl
+
+	wsl --list --online
+	wsl --install -d <Distro>
+	sudo apt update
+	sudo apt upgrade
+	sudo apt-get install wget ca-cetificates
+	code .
+	
+	
+	fez cagada?
+	talvez isso resolva 
+	
+	Get-AppxPackage MicrosoftCorporationII.WindowsSubsystemforLinux -AllUsers   | Remove-AppxPackage
+
+#### Consertando timer dual boot:
+	timedatectl set-local-rtc 1 --adjust-system-clock
+####
+ 
+##############################
+## DESKTOP APPS:
+##############################
+ 
+# vscode
+	sudo snap install code --classic
+	 
+	sudo snap install obs-studio
+	 
+	sudo apt install mupdf -y
+	 
+	sudo snap install vlc
+	 
+	sudo snap install discord
+	 
+	sudo snap install insomnia
+ 
+##############################
+## TERMINAL APPS:
+##############################
+ 
+# install curl if not already installed
+	type -p curl >/dev/null || sudo apt install curl -y
+ 
+# git
+	sudo apt-get install git -y
+	git config --global user.name "username"
+	git config --global user.email "email@email"
+ 
+## attention: openssl 1.0.1 needed
+# try to get key for rvm repo
+	gpg --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB &&
+	curl -sSL https://rvm.io/mpapis.asc | gpg --import - &&
+	curl -sSL https://rvm.io/pkuczynski.asc | gpg --import - &&
+# install stable rvm
+	curl -sSL https://get.rvm.io | bash -s stable
+ 
+# install nvm
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+	source ~/.bashrc &&
+	nvm install --lts &&
+	npm install yarn --global &&
+	yarn -v
+ 
+# installing postgres and creating superuser with password
+	sudo apt install postgresql postgresql-contrib -y &&
+	sudo -u postgres createuser -s "artistreak" -P
+	sudo apt install mupdf -y
+	sudo apt install ranger -y
+ 
+# configuring local ssh key for github
+ssh-keygen -t ed25519 -C "email@email"
+# Pode colocar a chave manualmente no site do github, além de pelo gh cli
+ 
+# installing gh cli
+	curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+	&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+	&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+	&& sudo apt update \
+	&& sudo apt install gh -y \
+## logging into gh cli
+	&& gh auth login
+ 
+ ===================================================================================================
+ 
+ 
+ # Getting sudo perm for next commands
+ sudo cd .
+ 
+ # install curl if not already installed
+ type -p curl >/dev/null || sudo apt install curl -y
+ 
+ # vscode
+ sudo snap install code --classic
+ 
+ #git 
+ sudo apt-get install git -y \
+ && git config --global user.name "rossi" \
+ && git config --global user.mail "guirossik10@gmail.com"
+ 
+ # installing gh cli
+ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+ && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+ && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+ && sudo apt update \
+ && sudo apt install gh -y \
+ 
+ ## logging into gh cli
+ 
+ && gh auth login
+ 
+ sudo snap install obs-studio
+ sudo snap install vlc
+ sudo snap install discord
+ sudo snap install insomnia
+ 
+ ## attention: openssl 1.0.1 needed
+ # try to get key for rvm repo
+ 
+ gpg --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB &&
+ curl -sSL https://rvm.io/mpapis.asc | gpg --import - &&
+ curl -sSL https://rvm.io/pkuczynski.asc | gpg --import - && 
+ 
+ # install stable rvm
+ curl -sSL https://get.rvm.io | bash -s stable
+ 
+ # install nvm
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+ source ~/.bashrc &&
+ nvm install --lts &&
+ npm install yarn --global &&
+ yarn -v
+ 
+ #installing postgres and creating superuser with password
+ sudo apt install postgresql postgresql-contrib -y &&
+ sudo -u postgres createuser -s "rossi" -P
+ 
+ sudo apt install mupdf -y
+ sudo apt install ranger -y
+ 
+ ### bit more stuff 
+ # add custom font (JetBrains in this case) from local file to system
+ cp -r JetBrainsMono-2.242 -/.local/share/fonts
+ 
+ #load fonts
+ fc-cache -f -v
+ 
+ #configuring local ssh key for git
+ ssh-keygen -t ed25519 -C "guirossik10@gmail.com"
+ 
+ ## putting ssh key on gh through gh cli
+ gh ssh-key add /home/rossi/.ssh/id_ed25519.pub -t "ssh-key name"
+ 
+ sudo snap install termius-app
+
+===================================================================================================
+
+
+Get-VMHostPartitionableGpu
+
+
+
+################
+#####DOCKER#####
+################
+
+https://docs.docker.com/
+
+usar wsl
+sudo usermod -aG docker $USER (adiciona o gp do docker ao current user fazendo com que n precise executar comandos docker com sudo)
+
+
+docker run <image>
+docker pull <image>
+
+
+docker ps <-a>(lista todos conteiners já criados)
+docker conteiner ls
+
+docker start <PID>
+docker stop <PID>
+docker pause <PID>
+docker unpause <PID>
+docker rm <PID>
+
+docker stop $(docker conteiner ls -q)
+
+
+docker exec -it(interativo) <PID> <COMAND>
+
+docker run -d -P <image> (-d detached processo fica em background) (-P faz com que a porta utilizada no conteiner seja disponibilizada no host original)
+
+docker run -d -p <8080:80> <image>(Para mapear uma porta em especifico devemos utilizar -p e a porta que sera usada)
+
+docker port <PID> (mostra as portas do conteiner)
+
+docker images (mostra imagens no sistema)
+
+docker inspect
+
+docker history <PID>
+ 
+docker build -t guilherme/app-node:1.0 .
+
+docker login -u <USER>
+
+docker push <PID>
+
+docker tag guilherme/app-node:1.2 rossik1/app-node:1.2
+
+https://docs.docker.com/storage/bind-mounts/
+
+docker run -it -v C:\Users\Guilherme\Desktop\app-exemplo\volumeDocker:/home ubuntu bash
+
+docker run -it --mount type=bind,source="$(pwd)"/target,target=/app ubuntu bash
+
+https://docs.docker.com/storage/volumes/
+
+docker volume ls 
+
+docker volume create <name>
+ 
+docker run -it -v <name>:/<dir> ubuntu bash
+ou 
+docker run -it --mount source=<name>,target=/app ubuntu bash
+
+https://docs.docker.com/storage/tmpfs/
+
+docker run -it --tmpfs=/<dir> ubuntu bash
+
+
+docker network ls
+
+docker network create --driver bridge <minha-bridge>
+
+docker run -it --name ubuntu2 --network minha-bridge ubuntu bash
+
+Dockerfile
+exemplo
+
+FROM node:14
+WORKDIR /app-node
+ARG PORT_BUILD=6000
+ENV PORT=$PORT_BUILD
+EXPOSE $PORT_BUILD
+COPY . .
+RUN npm install
+ENTRYPOINT npm start
+
+
+https://docs.docker.com/compose/
+
+docker-compose.yml
+
+services:
+  mongodb:
+    image: mongo:4.4.6
+    container_name: meu-mongo
+    networks:
+      - compose-bridge
+  
+  alurabooks:
+    image: aluradocker/alura-books:1.0
+    container_name: alurabooks
+    networks:
+      - compose-bridge
+    ports:
+      - 3000:3000
+
+networks:
+  compose-bridge:
+    driver: bridge
+	
+	
+docker-compose up (monta os conteiners)
+
+docker-compose ps
+docker-compose down
+
+atualização dia 07/04/2024
+
+"docker-compose" está sendo descontinuado usar "docker compose"
+subcomando do docker
+
+docker compose up -d --force-recreate
+
+indica o local do arquivo compose caso n esteja na raiz
+docker compose -f infra/compose.yaml up
+
+services:
+  database:
+    image: "postgres:16.0-alpine3.18"
+    environment:
+      POSTGRES_PASSWORD: "local_password"
+    ports:
+      - "5432:5432"
+
+
+
+_____________ SERVEO.NET _______________
+
+https://serveo.net/
+
+ssh -R myAlias:80:<ip>localhost:<port>3000 serveo.net
+
+
+
+_________________SQL_____________________
+
+Isso é o que você precisa aprender de SQL
+
+-SELECT
+-DISTINCT
+-FROM
+-JOIN
+-WHERE
+-HAVING
+-LIKE
+-GROUP BY
+-ORDER BY
+-COUNT
+-MAX/MIN/AVG
+-SUM
+-CASE WHEN
+-PARTITION BY (WINDOW Function)
+-WITH (CTE)
+-UNION
+-UNION ALL(Não remove duplicidades)
+
+A lógica  sempre segue a ordem:
+SELECT 
+FROM 
+WHERE 
+GROUP BY
+ORDER BY 
