@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "759d4eb8b0d64645",
+        "id": "c6d2b8c5041f6411",
         "type": "tabs",
         "children": [
           {
-            "id": "da559e38de12ab76",
+            "id": "4dcb11088577b67f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++ Masterclass/C++ Core.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "C++ Core"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Encapsulamento",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +70,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 419.5
   },
   "right": {
     "id": "afe09d07569d77c1",
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ Masterclass/Untitled.md",
+                "file": "SOLID/SOLID.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for SOLID"
             }
           },
           {
@@ -150,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -163,31 +159,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b8c8643201984df",
+  "active": "578086e94704fbe5",
   "lastOpenFiles": [
-    "SetupDev/Ubuntu.md",
-    "C++ Masterclass/C++ Core.md",
-    "CS50/C.md",
-    "Criptografia/Conceitos de criptografia.md",
-    "Docker/Docker.canvas",
-    "React/React project.md",
-    "Git/Commands.canvas",
-    "C++ Masterclass",
-    "React",
-    "CS50",
-    "Criptografia",
-    "SetupDev",
-    "Docker/Untitled.canvas",
-    "Docker",
-    "Git/Untitled 1.canvas",
     "Untitled.canvas",
-    "Untitled 1",
-    "pentest 2.txt",
-    "Git 2.txt",
-    "utils 2.txt",
+    "React/React Fundamentals.md",
+    "Cloud Fundamentals, Administration and Solution Architect/Virtualização.md",
+    "React/Componentes Baseados em Classe vs. Componentes Funcionais no React.md",
+    "React/Como o React Funciona por Trás dos Panos.md",
+    "Cloud Fundamentals, Administration and Solution Architect/pdfs/ON - CLOU - 01 - Virtualização_RevFinal.pdf",
+    "Cloud Fundamentals, Administration and Solution Architect/pdfs",
+    "Untitled 1.canvas",
+    "Cloud Fundamentals, Administration and Solution Architect",
+    "Untitled/Untitled.md",
+    "React/Hooks.md",
+    "Docker/Docker.canvas",
+    "Git/Commands.canvas",
+    "Linguagens, Autômatos/Aula 2.canvas",
+    "Linguagens, Autômatos/Aula 2.md",
+    "Linguagens, Autômatos/Arquivo_1_LAC_2025_rev_1.pdf",
+    "Domain Driven Design/DDD.md",
+    "C++ Masterclass/C++ Core.md",
+    "Codeflix/Untitled.canvas",
+    "Criptografia/Conceitos de criptografia.md",
+    "Pasted image 20250130154602.png",
+    "SetupDev/Ubuntu.md",
+    "NextJs/NextJs.md",
+    "NextJs/Untitled.canvas",
+    "Domain Driven Design",
+    "Linguagens, Autômatos",
+    "SOLID/Single Responsibility Principle.md",
+    "SOLID/SOLID.canvas",
+    "SOLID",
+    "Untitled.md",
+    "Codeflix",
+    "NextJs",
+    "CS50/C.md",
+    "C++ Masterclass",
+    "Docker/Untitled.canvas",
+    "Git/Untitled 1.canvas",
     "Cybersecury.md",
     "Valt/Untitled.md",
-    "Untitled/Untitled.canvas",
     "Untitled/Untitled Kanban.md",
     "Pasted image 20240331172140.png",
     "Valt/cssclasses.md",
