@@ -62,3 +62,6 @@ Uma camada de software (Hypervisor) gerencia a divisão dos recursos de hardware
 
 
 ![[ON - CLOU - 01 - Virtualização_RevFinal.pdf]]
+
+
+[[Cloud Computing]]

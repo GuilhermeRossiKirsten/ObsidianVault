@@ -301,3 +301,107 @@ function App() {
 - Use **`useMemo`** quando precisar armazenar um valor computado sem recalcular em toda renderização.
 - Use **`memo`** quando quiser evitar a re-renderização de um componente que recebe as mesmas props.
 - Os dois podem ser combinados para otimizar o desempenho de aplicações React. 
+
+---
+
+# Hooks Personalizados em React
+
+## O que são?
+
+Hooks personalizados são funções em React que utilizam hooks internos (como `useState`, `useEffect`, etc.) para encapsular e reutilizar lógicas complexas em diferentes componentes.
+
+## Vantagens
+
+- Reutilização de código
+- Melhor organização
+- Separação de responsabilidades
+- Facilidade de manutenção
+
+## Estrutura Básica
+
+Um hook personalizado nada mais é do que uma função que segue a convenção de começar com "use". Exemplo:
+
+```tsx
+import { useState, useEffect } from "react";
+
+function useWindowWidth() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return [width, setWidth];
+}
+```
+
+## Como Usar
+
+Esse hook pode ser utilizado em qualquer componente React:
+
+```tsx
+function MyComponent() {
+  const [width, setWidth] = useWindowWidth();
+
+  return (
+    <div>
+      <p>A largura da tela é: {width}px</p>
+      <button onClick={() => setWidth(800)}>Definir largura para 800px</button>
+    </div>
+  );
+}
+```
+
+## Exemplo Prático: Hook de Fetch
+
+Um hook para buscar dados de uma API:
+
+```tsx
+import { useState, useEffect } from "react";
+
+function useFetch(url: string) {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err);
+        setLoading(false);
+      });
+  }, [url]);
+
+  return { data, setData, loading, error };
+}
+```
+
+### Como usar:
+
+```tsx
+function Posts() {
+  const { data, setData, loading, error } = useFetch("https://jsonplaceholder.typicode.com/posts");
+
+  if (loading) return <p>Carregando...</p>;
+  if (error) return <p>Erro ao buscar dados</p>;
+
+  return (
+    <div>
+      <button onClick={() => setData([])}>Limpar dados</button>
+      <ul>
+        {data.map((post) => (
+          <li key={post.id}>{post.title}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
