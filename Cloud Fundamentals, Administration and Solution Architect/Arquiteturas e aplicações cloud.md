@@ -84,3 +84,5 @@ A computação em nuvem é um dos principais pilares da transformação digital,
 [[Azure]]
 [[Google Cloud Platform (GCP)]]
 [[Cloud Fundamentals, Administration and Solution Architect/Docker|Docker]]
+[[Kubernetes]]
+[[DevOps]]
