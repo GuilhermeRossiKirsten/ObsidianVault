@@ -2,12 +2,12 @@
 	"nodes":[
 		{"id":"20cac52097ac6399","type":"text","text":"Aula 2","x":-400,"y":-90,"width":112,"height":60},
 		{"id":"838ae15ba99afc5e","type":"text","text":"Aula 3\n","x":-400,"y":450,"width":112,"height":60},
-		{"id":"d30687535006ad90","type":"file","file":"Linguagens, Autômatos/docs/Arquivo_1_LAC_2025_rev_1.pdf","x":-50,"y":-230,"width":400,"height":340,"subpath":"#page=1"},
-		{"id":"77aef8ae5026528a","type":"file","file":"Linguagens, Autômatos/docs/Arquivo_2_LAC_2025_rev_1.pdf","x":-50,"y":310,"width":400,"height":340,"subpath":"#page=1"}
+		{"id":"d30687535006ad90","type":"file","file":"Linguagens, Autômatos/docs/Arquivo_1_LAC_2025_rev_1.pdf","subpath":"#page=1","x":-50,"y":-230,"width":400,"height":340},
+		{"id":"77aef8ae5026528a","type":"file","file":"Linguagens, Autômatos/docs/Arquivo_2_LAC_2025_rev_1.pdf","subpath":"#page=1","x":-50,"y":310,"width":400,"height":340}
 	],
 	"edges":[
 		{"id":"3ad30cd91f7130ff","fromNode":"20cac52097ac6399","fromSide":"right","toNode":"d30687535006ad90","toSide":"left"},
 		{"id":"e0031e204f8e3760","fromNode":"838ae15ba99afc5e","fromSide":"right","toNode":"77aef8ae5026528a","toSide":"left"},
-		{"id":"28f6e79cc2a20b81","fromNode":"20cac52097ac6399","fromSide":"bottom","toNode":"838ae15ba99afc5e","toSide":"top"}
+		{"id":"e3f3cbf981e3f48c","fromNode":"20cac52097ac6399","fromSide":"bottom","toNode":"838ae15ba99afc5e","toSide":"top"}
 	]
 }

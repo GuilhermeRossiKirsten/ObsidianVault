@@ -34,7 +34,7 @@ React Context é um mecanismo embutido no React que permite compartilhar estado 
 
 ### Criando a Store
 
-```tsx
+```jsx
 import { configureStore } from '@reduxjs/toolkit';
 import counterReducer from './counterSlice';
 
@@ -49,7 +49,7 @@ export default store;
 
 ### Criando um Slice
 
-```tsx
+```jsx
 import { createSlice } from '@reduxjs/toolkit';
 
 const counterSlice = createSlice({
@@ -69,7 +69,7 @@ export default counterSlice.reducer;
 
 ### Criando um Contexto
 
-```tsx
+```jsx
 import { createContext, useState } from 'react';
 
 export const CounterContext = createContext();
@@ -87,7 +87,7 @@ export const CounterProvider = ({ children }) => {
 
 ### Consumindo o Contexto
 
-```tsx
+```jsx
 import { useContext } from 'react';
 import { CounterContext } from './CounterContext';
 
@@ -123,9 +123,9 @@ Quando você quer evitar dependências externas.
 Redux e React Context têm propósitos diferentes. **Redux** é ideal para estados complexos e compartilhados globalmente, enquanto **React Context** é mais indicado para estados locais e menos complexos. A escolha entre um ou outro depende da escala e necessidades da aplicação.
 
 
-### 1️⃣ Criando a Store com `createStore`
+### Criando a Store com `createStore`
 
-```tsx
+```jsx
 import { createStore } from 'redux';
 
 // Estado inicial
@@ -149,9 +149,9 @@ const store = createStore(counterReducer);
 export default store;
 ```
 
-### 2️⃣ Criando a Store com `configureStore`
+### Criando a Store com `configureStore`
 
-```tsx
+```jsx
 import { configureStore } from '@reduxjs/toolkit';
 import counterReducer from './counterSlice';
 
@@ -164,9 +164,9 @@ const store = configureStore({
 export default store;
 ```
 
-### 3️⃣ Criando um Slice
+### Criando um Slice
 
-```tsx
+```jsx
 import { createSlice } from '@reduxjs/toolkit';
 
 const counterSlice = createSlice({
@@ -183,9 +183,9 @@ export const { increment, decrement, incrementByAmount } = counterSlice.actions;
 export default counterSlice.reducer;
 ```
 
-### 4️⃣ Conectando o Redux ao React
+### Conectando o Redux ao React
 
-```tsx
+```jsx
 import { Provider } from 'react-redux';
 import store from './store';
 import Counter from './Counter';
@@ -201,9 +201,9 @@ function App() {
 export default App;
 ```
 
-### 5️⃣ Utilizando Redux no Componente com Hooks
+### Utilizando Redux no Componente com Hooks
 
-```tsx
+```jsx
 import { useSelector, useDispatch, useStore } from 'react-redux';
 import { increment, decrement } from './counterSlice';
 
@@ -226,3 +226,6 @@ const Counter = () => {
 export default Counter;
 ```
 
+
+
+Ainda falta terminar... 

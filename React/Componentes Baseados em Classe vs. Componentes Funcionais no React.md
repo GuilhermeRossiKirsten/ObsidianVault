@@ -81,12 +81,12 @@ export default MeuComponente;
 
 ### **Componentes de Classe**
 
-✅ **Vantagens:**
+ **Vantagens:**
 
 - Familiaridade para projetos legados.
 - Métodos de ciclo de vida são bem estruturados.
 
-❌ **Desvantagens:**
+ **Desvantagens:**
 
 - Código mais verboso e difícil de manter.
 - Performance inferior devido à necessidade de `this` e re-renderização mais custosa.
@@ -94,13 +94,13 @@ export default MeuComponente;
 
 ### **Componentes Funcionais**
 
-✅ **Vantagens:**
+ **Vantagens:**
 
 - Código mais enxuto e legível.
 - Hooks permitem reuso de lógica sem a necessidade de hierarquias complexas.
 - Melhor performance e otimização nativa do React.
 
-❌ **Desvantagens:**
+ **Desvantagens:**
 
 - Requer aprendizado de Hooks para quem vem de componentes de classe.
 - Pode ser mais difícil de entender para códigos antigos sem Hooks.

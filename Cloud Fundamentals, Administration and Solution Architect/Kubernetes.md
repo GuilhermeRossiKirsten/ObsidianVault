@@ -106,7 +106,4 @@ Para iniciar no Kubernetes, siga estes passos:
 Esses comandos criam um pequeno ambiente Kubernetes local e iniciam um serviço básico para testes.
 
 
-![[on-image-papel-kubernetes-docker-swarm.svg]]
-
-
 ![[ON - CLOU - 08 - Kubernetes_RevFinal.pdf]]
