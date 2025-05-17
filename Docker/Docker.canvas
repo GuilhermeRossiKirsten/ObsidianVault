@@ -30,7 +30,6 @@
 		{"id":"2303c2abe0b94e20","type":"text","text":"Montagem e Volumes","x":1192,"y":-153,"width":221,"height":50}
 	],
 	"edges":[
-		{"id":"684168ed1d686c03","fromNode":"9a94b40ac4705b18","fromSide":"right","toNode":"93c7bb8e55aaa54f","toSide":"left"},
 		{"id":"28c3d95c2457ad0a","fromNode":"e61b2f6f5a5b94a4","fromSide":"bottom","toNode":"3bf0a062dab1b686","toSide":"top"},
 		{"id":"206d2cd3d9af0c06","fromNode":"3bf0a062dab1b686","fromSide":"bottom","toNode":"7579935c4f49f0c7","toSide":"top"},
 		{"id":"a60893638ab0285e","fromNode":"3bf0a062dab1b686","fromSide":"bottom","toNode":"0cb819686b93aa4e","toSide":"top"},

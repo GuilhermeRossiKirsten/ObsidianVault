@@ -4,19 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "438022d37fb0e273",
+        "id": "1fdde3a5ca122085",
         "type": "tabs",
         "children": [
           {
-            "id": "d5100b8af8bd7d0e",
+            "id": "434aa96df877421a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "canvas",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-15 21.47.08.excalidraw.md"
+                "file": "Docker/Docker.canvas",
+                "viewState": {
+                  "x": 2856.381316953814,
+                  "y": 672.6926415780787,
+                  "zoom": 0.155183424815878
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-15 21.47.08.excalidraw"
+              "icon": "lucide-layout-dashboard",
+              "title": "Docker"
             }
           }
         ]
@@ -76,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 511.5
   },
   "right": {
     "id": "afe09d07569d77c1",
@@ -173,49 +178,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5100b8af8bd7d0e",
+  "active": "434aa96df877421a",
   "lastOpenFiles": [
-    "React/React Server Components vs Client Components.md",
-    "React/Redux.md",
+    "Docker/Volumes e Bind-Mounts.md",
+    "Codeflix/Untitled.canvas",
+    "Criptografia/Conceitos de criptografia.md",
+    "Challenge/Drawing 2025-05-10 08.44.58.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-07 23.53.27.excalidraw.md",
+    "Linguagens, Autômatos/Aulas.canvas",
+    "Kubernetes/Kubernetes.md",
+    "Docker/Dockerfile.md",
+    "Docker/Networking.md",
+    "Docker/Manipulando Containers.md",
+    "Docker/Introdução aos Containers e Docker.md",
+    "Docker/Imagens Docker.md",
+    "Docker/Docker.canvas",
+    "Docker/Buildx - Builds Multiplataforma.md",
+    "Challenge/Challenge.md",
+    "React/Hooks.md",
+    "Untitled",
+    "Challenge",
+    "React/Componentes Baseados em Classe vs. Componentes Funcionais no React.md",
+    "Desafio-Itau/DTO.md",
+    "Desafio-Itau/Plano de desenvolvimento.md",
+    "React/Como o React Funciona por Trás dos Panos.md",
+    "Kubernetes",
+    "React/React Fundamentals.md",
+    "C++ Masterclass/C++.md",
     "React/Rotas no React.md",
+    "React/Redux.md",
+    "React/React Server Components vs Client Components.md",
+    "Excalidraw/Drawing 2025-03-15 21.47.08.excalidraw.md",
+    "Git/Commands.canvas",
+    "Desafio-Itau",
     "Cybersecurity/CyberSecurity vs. Information Security ISO27001 ISO27002.md",
     "Cybersecurity/Introdução, definição e relevância para o negócio.md",
     "Cybersecurity/pdfs/Cap2-Cibersecurity vs Information security_RevFinal_20200602_1300.pdf",
     "Cybersecurity/pdfs/Cap1-Introducão_ definição e relevância para o negócio_RevFinal_20200602_1300.pdf",
-    "Excalidraw/Drawing 2025-03-15 21.47.08.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-04 22.34.30.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-07 14.46.45.excalidraw.md",
-    "Cloud Fundamentals, Administration and Solution Architect/Docker.md",
-    "Docker/Docker.canvas",
-    "Domain Driven Design/DDD.md",
-    "Domain Driven Design/DDD.md",
-    "React/Como o React Funciona por Trás dos Panos.md",
-    "C++ Masterclass/C++.md",
     "Big Data",
-    "React/Hooks.md",
-    "React/React Fundamentals.md",
-    "React/Componentes Baseados em Classe vs. Componentes Funcionais no React.md",
-    "Cloud Fundamentals, Administration and Solution Architect/desenhos/Virtual Machines vs Container Virtualization.md",
-    "Cloud Fundamentals, Administration and Solution Architect/Arquiteturas e aplicações cloud.md",
-    "Linguagens, Autômatos/Aulas.canvas",
     "Linguagens, Autômatos/docs/Arquivo_2_LAC_2025_rev_1.pdf",
     "Linguagens, Autômatos/docs/Arquivo_1_LAC_2025_rev_1.pdf",
-    "Git/Commands.canvas",
-    "Criptografia/Conceitos de criptografia.md",
-    "Codeflix/Untitled.canvas",
-    "Cloud Fundamentals, Administration and Solution Architect/Kubernetes.md",
-    "Cloud Fundamentals, Administration and Solution Architect/Google Cloud Platform (GCP).md",
-    "Cloud Fundamentals, Administration and Solution Architect/Azure.md",
-    "Cloud Fundamentals, Administration and Solution Architect/DevOps.md",
     "Cloud Fundamentals, Administration and Solution Architect/pdfs/ON - CLOU - 06 - GCP_RevFinal.pdf",
-    "Cybersecurity/pdfs",
-    "Untitled 1",
-    "Cloud Fundamentals, Administration and Solution Architect/desenhos/IaaS.md",
     "on-image-papel-kubernetes-docker-swarm.svg",
-    "Cloud Fundamentals, Administration and Solution Architect/pdfs/ON - CLOU - 09 - DevOps_RevFinal.pdf",
-    "Cloud Fundamentals, Administration and Solution Architect/pdfs/ON - CLOU - 08 - Kubernetes_RevFinal.pdf",
-    "Excalidraw/Drawing 2025-03-04 22.32.55.excalidraw.md",
-    "Cloud Fundamentals, Administration and Solution Architect/Amazon Web Services.md",
     "Linguagens, Autômatos/Aula 2.canvas",
     "Cloud Fundamentals, Administration and Solution Architect/Untitled.canvas",
     "Untitled.canvas",
