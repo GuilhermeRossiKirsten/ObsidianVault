@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1fdde3a5ca122085",
+        "id": "46947a385ada6b7a",
         "type": "tabs",
         "children": [
           {
-            "id": "434aa96df877421a",
+            "id": "a733ca5d9d294f49",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Docker/Docker.canvas",
-                "viewState": {
-                  "x": 2856.381316953814,
-                  "y": 672.6926415780787,
-                  "zoom": 0.155183424815878
-                }
+                "file": "Kubernetes/KubernetesUdemyEval/Controladores Kubernetes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Docker"
+              "icon": "lucide-file",
+              "title": "Controladores Kubernetes"
             }
           }
         ]
@@ -81,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 511.5
+    "width": 274.5
   },
   "right": {
     "id": "afe09d07569d77c1",
@@ -164,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,47 +176,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "434aa96df877421a",
+  "active": "a733ca5d9d294f49",
   "lastOpenFiles": [
-    "Docker/Volumes e Bind-Mounts.md",
-    "Codeflix/Untitled.canvas",
-    "Criptografia/Conceitos de criptografia.md",
-    "Challenge/Drawing 2025-05-10 08.44.58.excalidraw.md",
-    "Excalidraw/Drawing 2025-04-07 23.53.27.excalidraw.md",
-    "Linguagens, Autômatos/Aulas.canvas",
+    "Kubernetes/KubernetesUdemyEval/k8s/replicasets/replicasets.yaml",
+    "Kubernetes/KubernetesUdemyEval/k8s/replicasets/rc-definition.yaml",
+    "Kubernetes/KubernetesUdemyEval/k8s/replicasets",
+    "Kubernetes/KubernetesUdemyEval/YAML.md",
+    "Kubernetes/KubernetesUdemyEval/Controladores Kubernetes.md",
+    "Kubernetes/KubernetesUdemyEval/k8s/replicationController/rc-definition.yaml",
+    "Kubernetes/KubernetesUdemyEval/k8s/replicationController",
+    "Kubernetes/KubernetesUdemyEval/k8s/pods/pod-definition.yaml",
+    "Kubernetes/KubernetesUdemyEval/k8s/pods",
+    "Kubernetes/KubernetesUdemyEval/Kubernetes.md",
+    "Kubernetes/KubernetesUdemyEval/Instalação.md",
+    "Kubernetes/KubernetesUdemyEval/Kubernetes Architecture.md",
+    "Kubernetes/KubernetesUdemyEval/Pods.md",
     "Kubernetes/Kubernetes.md",
+    "Kubernetes/KubernetesUdemyEval/k8s/kubectl.sha256",
+    "Kubernetes/KubernetesUdemyEval/k8s/kubectl",
+    "Kubernetes/KubernetesUdemyEval/k8s",
+    "Kubernetes/KubernetesUdemyEval/Nova pasta",
+    "Kubernetes/KubernetesUdemyEval/Drawing 2025-05-28 13.14.32.excalidraw.md",
+    "Cloud Fundamentals, Administration and Solution Architect/Docker.md",
+    "Cloud Fundamentals, Administration and Solution Architect/DevOps.md",
     "Docker/Dockerfile.md",
-    "Docker/Networking.md",
-    "Docker/Manipulando Containers.md",
-    "Docker/Introdução aos Containers e Docker.md",
     "Docker/Imagens Docker.md",
-    "Docker/Docker.canvas",
     "Docker/Buildx - Builds Multiplataforma.md",
-    "Challenge/Challenge.md",
-    "React/Hooks.md",
-    "Untitled",
-    "Challenge",
-    "React/Componentes Baseados em Classe vs. Componentes Funcionais no React.md",
-    "Desafio-Itau/DTO.md",
+    "Docker/Networking.md",
+    "Docker/Volumes e Bind-Mounts.md",
+    "Docker/Docker.canvas",
+    "Docker/Introdução aos Containers e Docker.md",
     "Desafio-Itau/Plano de desenvolvimento.md",
-    "React/Como o React Funciona por Trás dos Panos.md",
-    "Kubernetes",
-    "React/React Fundamentals.md",
-    "C++ Masterclass/C++.md",
-    "React/Rotas no React.md",
-    "React/Redux.md",
-    "React/React Server Components vs Client Components.md",
-    "Excalidraw/Drawing 2025-03-15 21.47.08.excalidraw.md",
-    "Git/Commands.canvas",
-    "Desafio-Itau",
-    "Cybersecurity/CyberSecurity vs. Information Security ISO27001 ISO27002.md",
+    "Desafio-Itau/DTO.md",
+    "Criptografia/Conceitos de criptografia.md",
     "Cybersecurity/Introdução, definição e relevância para o negócio.md",
-    "Cybersecurity/pdfs/Cap2-Cibersecurity vs Information security_RevFinal_20200602_1300.pdf",
-    "Cybersecurity/pdfs/Cap1-Introducão_ definição e relevância para o negócio_RevFinal_20200602_1300.pdf",
-    "Big Data",
-    "Linguagens, Autômatos/docs/Arquivo_2_LAC_2025_rev_1.pdf",
-    "Linguagens, Autômatos/docs/Arquivo_1_LAC_2025_rev_1.pdf",
-    "Cloud Fundamentals, Administration and Solution Architect/pdfs/ON - CLOU - 06 - GCP_RevFinal.pdf",
+    "Cybersecurity/CyberSecurity vs. Information Security ISO27001 ISO27002.md",
+    "Domain Driven Design/DDD.md",
+    "React/Como o React Funciona por Trás dos Panos.md",
+    "().md",
+    "2025-05-22.md",
+    "Linguagens, Autômatos/Aulas.canvas",
+    "Git/Commands.canvas",
+    "Codeflix/Untitled.canvas",
     "on-image-papel-kubernetes-docker-swarm.svg",
     "Linguagens, Autômatos/Aula 2.canvas",
     "Cloud Fundamentals, Administration and Solution Architect/Untitled.canvas",
