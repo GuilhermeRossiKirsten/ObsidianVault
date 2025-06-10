@@ -1,4 +1,4 @@
-cl
+
 **Kubertenes** (K8s) é um produto Open Source utilizado para automatizar a implantação, o dimensionamento e o gerenciamento de aplicativos em contêiner
 
 
@@ -89,47 +89,3 @@ Pods - Unidade que contém os containers provisionados,
 representa os processos rodando no cluster
 
 
-
-
-# Kubernetes - Lousa Completa
-
-## ✨ O que é?
-
-**Kubernetes (K8s)** é uma plataforma open-source para **orquestração de containers**, permitindo:
-
-- 🚀 Deploy automatizado
-- ⚖️ Escalabilidade
-- 🔄 Recuperação automática
-- 🔧 Gerenciamento eficiente de aplicações containerizadas
-
----
-
-## 🏗️ Arquitetura do Kubernetes
-
-### 🔹 Control Plane (Plano de Controle)
-
-- 🧠 **kube-apiserver** → Interface REST, recebe comandos e comunica com o cluster.
-- 🔄 **kube-controller-manager** → Garante que o estado atual siga o estado desejado (replicas, nodes...).
-- 🎯 **kube-scheduler** → Decide em qual Node os Pods irão rodar.
-- 🗄️ **etcd** → Banco de dados chave-valor que armazena todo o estado do cluster.
-
-### 🔸 Worker Nodes (Nós de Trabalho)
-
-- 🏗️ **kubelet** → Agente que comunica o Node com o Control Plane. Gerencia os Pods locais.
-- 🔗 **kube-proxy** → Gerencia o tráfego de rede entre os Pods e o exterior.
-- 🐳 **Container Runtime** → Software responsável por rodar os containers (Docker, containerd, CRI-O...).
-
----
-
-## ⚙️ Funcionamento Interno (Por baixo dos panos)
-
-```plaintext
-kubectl -> kube-apiserver -> etcd (armazena)
-                     ↓
-              kube-scheduler (escolhe o Node)
-                     ↓
-           kubelet no Node escolhido
-                     ↓
-      Container Runtime (executa os containers)
-                     ↓
-              kube-proxy (cuida da rede)

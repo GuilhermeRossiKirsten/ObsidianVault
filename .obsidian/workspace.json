@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "46947a385ada6b7a",
+        "id": "a25781f32be20f52",
         "type": "tabs",
         "children": [
           {
-            "id": "a733ca5d9d294f49",
+            "id": "4f5af298c6600340",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/KubernetesUdemyEval/Controladores Kubernetes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Controladores Kubernetes"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 272.5
   },
   "right": {
     "id": "afe09d07569d77c1",
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-15 21.47.08.excalidraw.md",
+                "file": "Microserviços/Drawing 2025-06-02 19.20.50.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2025-03-15 21.47.08.excalidraw"
+              "title": "Backlinks for Drawing 2025-06-02 19.20.50.excalidraw"
             }
           },
           {
@@ -156,8 +152,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,48 +171,49 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a733ca5d9d294f49",
+  "active": "578086e94704fbe5",
   "lastOpenFiles": [
-    "Kubernetes/KubernetesUdemyEval/k8s/replicasets/replicasets.yaml",
-    "Kubernetes/KubernetesUdemyEval/k8s/replicasets/rc-definition.yaml",
-    "Kubernetes/KubernetesUdemyEval/k8s/replicasets",
+    "Cloud Fundamentals, Administration and Solution Architect/Kubernetes.md",
+    "Domain Driven Design/DDD.md",
+    "Kubernetes/Kubernetes.md",
     "Kubernetes/KubernetesUdemyEval/YAML.md",
-    "Kubernetes/KubernetesUdemyEval/Controladores Kubernetes.md",
-    "Kubernetes/KubernetesUdemyEval/k8s/replicationController/rc-definition.yaml",
-    "Kubernetes/KubernetesUdemyEval/k8s/replicationController",
-    "Kubernetes/KubernetesUdemyEval/k8s/pods/pod-definition.yaml",
-    "Kubernetes/KubernetesUdemyEval/k8s/pods",
+    "Kubernetes/KubernetesUdemyEval/Serviços.md",
+    "Kubernetes/KubernetesUdemyEval/Pods.md",
+    "Kubernetes/KubernetesUdemyEval/Kubernetes Architecture.md",
     "Kubernetes/KubernetesUdemyEval/Kubernetes.md",
     "Kubernetes/KubernetesUdemyEval/Instalação.md",
-    "Kubernetes/KubernetesUdemyEval/Kubernetes Architecture.md",
-    "Kubernetes/KubernetesUdemyEval/Pods.md",
-    "Kubernetes/Kubernetes.md",
-    "Kubernetes/KubernetesUdemyEval/k8s/kubectl.sha256",
-    "Kubernetes/KubernetesUdemyEval/k8s/kubectl",
-    "Kubernetes/KubernetesUdemyEval/k8s",
-    "Kubernetes/KubernetesUdemyEval/Nova pasta",
-    "Kubernetes/KubernetesUdemyEval/Drawing 2025-05-28 13.14.32.excalidraw.md",
-    "Cloud Fundamentals, Administration and Solution Architect/Docker.md",
-    "Cloud Fundamentals, Administration and Solution Architect/DevOps.md",
+    "Kubernetes/KubernetesUdemyEval/Deployment.md",
+    "Kubernetes/KubernetesUdemyEval/Controladores Kubernetes.md",
+    "Kubernetes/KubernetesUdemyEval/k8s/minikube-linux-amd64",
+    "Microserviços/Drawing 2025-06-02 19.20.50.excalidraw.md",
+    "Kubernetes/KubernetesUdemyEval/k8s/deployment/deployment.yaml",
+    "Kubernetes/KubernetesUdemyEval/k8s/deployment",
+    "Microserviços/videos/output.mp4",
+    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].webm",
+    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].temp.webm",
+    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].f251.webm",
+    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].f251.webm.part",
+    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].f248.webm",
+    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].f248.webm.part",
+    "Microserviços/Drawing 2025-06-02 23.13.15.excalidraw.md",
+    "Microserviços/Untitled.md",
+    "Microserviços/Untitled.canvas",
+    "Cloud Fundamentals, Administration and Solution Architect/desenhos/Virtual Machines vs Container Virtualization.md",
+    "Excalidraw/Drawing 2025-05-30 21.53.18.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-28 22.36.05.excalidraw.md",
+    "C++ Masterclass/C++.md",
     "Docker/Dockerfile.md",
     "Docker/Imagens Docker.md",
-    "Docker/Buildx - Builds Multiplataforma.md",
-    "Docker/Networking.md",
-    "Docker/Volumes e Bind-Mounts.md",
     "Docker/Docker.canvas",
-    "Docker/Introdução aos Containers e Docker.md",
-    "Desafio-Itau/Plano de desenvolvimento.md",
-    "Desafio-Itau/DTO.md",
-    "Criptografia/Conceitos de criptografia.md",
-    "Cybersecurity/Introdução, definição e relevância para o negócio.md",
+    "Docker/Buildx - Builds Multiplataforma.md",
+    "React/Componentes Baseados em Classe vs. Componentes Funcionais no React.md",
+    "React/Hooks.md",
+    "React/React Fundamentals.md",
+    "React/React Server Components vs Client Components.md",
     "Cybersecurity/CyberSecurity vs. Information Security ISO27001 ISO27002.md",
-    "Domain Driven Design/DDD.md",
-    "React/Como o React Funciona por Trás dos Panos.md",
-    "().md",
-    "2025-05-22.md",
+    "Codeflix/Untitled.canvas",
     "Linguagens, Autômatos/Aulas.canvas",
     "Git/Commands.canvas",
-    "Codeflix/Untitled.canvas",
     "on-image-papel-kubernetes-docker-swarm.svg",
     "Linguagens, Autômatos/Aula 2.canvas",
     "Cloud Fundamentals, Administration and Solution Architect/Untitled.canvas",
@@ -225,7 +221,6 @@
     "Untitled 1.canvas",
     "Pasted image 20250130154602.png",
     "NextJs/Untitled.canvas",
-    "SOLID/SOLID.canvas",
     "Pasted image 20240331172140.png"
   ]
 }
