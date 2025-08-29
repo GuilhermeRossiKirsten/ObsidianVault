@@ -1,3 +1,8 @@
+---
+tags:
+  - React
+---
+
 # Rotas no React com `react-router-dom` (`createBrowserRouter`)
 
 ## Instalação

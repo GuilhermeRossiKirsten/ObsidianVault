@@ -1,3 +1,7 @@
+---
+tags: Docker
+---
+
 ## 1. **Introdução ao Docker e Dockerfile**
 
 O Docker é uma plataforma que permite empacotar, distribuir e executar aplicações em containers, garantindo que elas funcionem de maneira consistente em diferentes ambientes. Um **Dockerfile** é um script que contém uma série de instruções para construir uma imagem Docker. Ele define todos os componentes necessários para executar sua aplicação, desde a imagem base até as dependências e configurações.

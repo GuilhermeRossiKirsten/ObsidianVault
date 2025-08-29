@@ -1,3 +1,8 @@
+---
+tags:
+  - Docker
+---
+
 ## **Persistência de Dados e a Natureza Efêmera dos Containers**
 
 ### 1. **Entendendo a Perda de Dados Após a Remoção do Container**

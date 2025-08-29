@@ -1,3 +1,7 @@
+---
+tags:
+  - Kubernetes
+---
 
 **Kubertenes** (K8s) é um produto Open Source utilizado para automatizar a implantação, o dimensionamento e o gerenciamento de aplicativos em contêiner
 

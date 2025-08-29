@@ -1,3 +1,8 @@
+---
+tags:
+  - Kubernetes
+---
+
 ### **Instalar o kubectl**
 https://kubernetes.io/pt-br/docs/tasks/tools/#kubectl
 

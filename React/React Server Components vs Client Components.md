@@ -1,3 +1,8 @@
+---
+tags:
+  - React
+---
+
 # Quando Usar Cada Um
 
 ## O que são React Server Components (RSC)?

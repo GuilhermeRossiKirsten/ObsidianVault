@@ -1,3 +1,8 @@
+---
+tags:
+  - Docker
+---
+
 ## 1. **Introdução ao Docker Buildx**
 
 O Docker Buildx é uma ferramenta avançada que estende o comando `docker build` com funcionalidades poderosas, permitindo:

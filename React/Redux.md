@@ -1,3 +1,7 @@
+---
+tags:
+  - React
+---
 # Redux vs React Context
 
 ## O que é Redux?

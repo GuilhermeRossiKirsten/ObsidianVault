@@ -1,3 +1,7 @@
+---
+tags:
+  - React
+---
 
 ##  Componentes no React
 

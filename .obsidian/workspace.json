@@ -4,17 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a25781f32be20f52",
+        "id": "1d96a1351dda7b83",
         "type": "tabs",
         "children": [
           {
-            "id": "4f5af298c6600340",
+            "id": "e9afb20fe975378e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "bases",
+              "state": {
+                "file": "Untitled 2.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled 2"
             }
           }
         ]
@@ -29,6 +32,7 @@
       {
         "id": "ab135e4339cb72ad",
         "type": "tabs",
+        "dimension": 74.54545454545455,
         "children": [
           {
             "id": "578086e94704fbe5",
@@ -71,10 +75,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "0163325783d51ae6",
+        "type": "tabs",
+        "dimension": 25.454545454545453,
+        "children": [
+          {
+            "id": "4f5af298c6600340",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 335.5
   },
   "right": {
     "id": "afe09d07569d77c1",
@@ -90,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microserviços/Drawing 2025-06-02 19.20.50.excalidraw.md",
+                "file": "pix/Manual de Segurança do Pix Versão 3.7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2025-06-02 19.20.50.excalidraw"
+              "title": "Backlinks for Manual de Segurança do Pix Versão 3.7"
             }
           },
           {
@@ -109,12 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++ Masterclass/Untitled.md",
+                "file": "Untitled 2.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Untitled 2"
             }
           },
           {
@@ -124,7 +145,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -136,10 +159,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ Masterclass/Untitled.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           },
           {
@@ -152,30 +177,67 @@
               "title": "Source Control"
             }
           }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "f40e986d70ec6675",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afeeb074953adad1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 419.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "graph:Open graph view": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "578086e94704fbe5",
+  "active": "cfb09a1f5f6308d5",
   "lastOpenFiles": [
-    "Novo(a) Documento de Texto.txt",
-    "Cloud Fundamentals, Administration and Solution Architect/Kubernetes.md",
-    "Domain Driven Design/DDD.md",
+    "Untitled.canvas",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "2025-08-28.md",
+    "Untitled Kanban.md",
+    "Untitled.base",
+    "Docker/Imagens Docker.md",
+    "Docker/Dockerfile.md",
+    "Docker/Docker.canvas",
+    "Assembly/Sprint 1.md",
+    "C++ Masterclass/C++.md",
+    "Challenge/Challenge.md",
+    "Challenge/Drawing 2025-05-10 08.44.58.excalidraw.md",
+    "Codeflix/Untitled.canvas",
+    "Criptografia/Conceitos de criptografia.md",
+    "TDD/TDD.md",
+    "Cloud Fundamentals, Administration and Solution Architect/Arquiteturas e aplicações cloud.md",
+    "2025-08-21.md",
+    "Cloud Fundamentals, Administration and Solution Architect/desenhos/IaaS.md",
+    "Excalidraw/Drawing 2025-03-15 21.47.08.excalidraw.md",
+    "Docker/Volumes e Bind-Mounts.md",
+    "Git/Commands.canvas",
     "Kubernetes/Kubernetes.md",
     "Kubernetes/KubernetesUdemyEval/YAML.md",
     "Kubernetes/KubernetesUdemyEval/Serviços.md",
@@ -185,39 +247,19 @@
     "Kubernetes/KubernetesUdemyEval/Instalação.md",
     "Kubernetes/KubernetesUdemyEval/Deployment.md",
     "Kubernetes/KubernetesUdemyEval/Controladores Kubernetes.md",
+    "Cloud Fundamentals, Administration and Solution Architect/Kubernetes.md",
+    "TDD",
+    "pix",
+    "AZ-900",
+    "Novo(a) Documento de Texto.txt",
     "Kubernetes/KubernetesUdemyEval/k8s/minikube-linux-amd64",
-    "Microserviços/Drawing 2025-06-02 19.20.50.excalidraw.md",
     "Kubernetes/KubernetesUdemyEval/k8s/deployment/deployment.yaml",
     "Kubernetes/KubernetesUdemyEval/k8s/deployment",
-    "Microserviços/videos/output.mp4",
-    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].webm",
-    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].temp.webm",
-    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].f251.webm",
-    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].f251.webm.part",
-    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].f248.webm",
-    "Microserviços/videos/Aula 01： Criação dos serviços e comunicação assíncrona [calugFu-Pf8].f248.webm.part",
-    "Microserviços/Drawing 2025-06-02 23.13.15.excalidraw.md",
-    "Microserviços/Untitled.md",
     "Microserviços/Untitled.canvas",
-    "Cloud Fundamentals, Administration and Solution Architect/desenhos/Virtual Machines vs Container Virtualization.md",
-    "Excalidraw/Drawing 2025-05-30 21.53.18.excalidraw.md",
-    "Excalidraw/Drawing 2025-05-28 22.36.05.excalidraw.md",
-    "C++ Masterclass/C++.md",
-    "Docker/Dockerfile.md",
-    "Docker/Imagens Docker.md",
-    "Docker/Docker.canvas",
-    "Docker/Buildx - Builds Multiplataforma.md",
-    "React/Componentes Baseados em Classe vs. Componentes Funcionais no React.md",
-    "React/Hooks.md",
-    "React/React Fundamentals.md",
-    "React/React Server Components vs Client Components.md",
-    "Codeflix/Untitled.canvas",
     "Linguagens, Autômatos/Aulas.canvas",
-    "Git/Commands.canvas",
     "on-image-papel-kubernetes-docker-swarm.svg",
     "Linguagens, Autômatos/Aula 2.canvas",
     "Cloud Fundamentals, Administration and Solution Architect/Untitled.canvas",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "Pasted image 20250130154602.png",
     "NextJs/Untitled.canvas",

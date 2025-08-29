@@ -1,3 +1,8 @@
+---
+tags:
+  - Docker
+---
+
 ## 1. **Entendendo Imagens Docker**
 
 ### **O que São Imagens e Como Elas Funcionam**

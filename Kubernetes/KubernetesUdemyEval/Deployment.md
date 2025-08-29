@@ -1,3 +1,8 @@
+---
+tags:
+  - Kubernetes
+---
+
 ## **O que é um Deployment no Kubernetes?**
 
 - É um objeto de alto nível no Kubernetes, usado para gerenciar **atualizações**, **rollbacks**, **escala** e **controle de estado** dos seus aplicativos.

@@ -1,3 +1,7 @@
+---
+tags:
+  - Docker
+---
 # Comandos Essenciais do Docker
 
 ## 1. Executando o Primeiro Container

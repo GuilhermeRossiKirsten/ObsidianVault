@@ -1,3 +1,9 @@
+---
+tags:
+  - YAML
+  - DockerCompose
+  - Kubernetes
+---
 # YAML – Resumo
 
 ## O que é YAML?

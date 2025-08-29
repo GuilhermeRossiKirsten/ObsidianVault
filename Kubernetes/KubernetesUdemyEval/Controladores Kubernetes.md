@@ -1,3 +1,8 @@
+---
+tags:
+  - Kubernetes
+---
+
 ## Introdução aos Controladores
 
 - Os **controladores** são os “cérebros” do Kubernetes.
