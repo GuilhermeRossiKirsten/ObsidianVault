@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1d96a1351dda7b83",
+        "id": "0ce6c7ee1da7cd8b",
         "type": "tabs",
         "children": [
           {
-            "id": "e9afb20fe975378e",
+            "id": "c5f6d5699ac30c5a",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled 2.base",
-                "viewName": "Table"
+                "file": "React/Componentes Baseados em Classe vs. Componentes Funcionais no React.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled 2"
+              "icon": "lucide-file",
+              "title": "Componentes Baseados em Classe vs. Componentes Funcionais no React"
             }
           }
         ]
@@ -214,10 +215,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "cfb09a1f5f6308d5",
+  "active": "578086e94704fbe5",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "React/Como o React Funciona por Trás dos Panos.md",
     "Untitled 2.base",
+    "Untitled.canvas",
     "Untitled 1.base",
     "2025-08-28.md",
     "Untitled Kanban.md",
